@@ -1,8 +1,8 @@
-# Bootstrap-Portfolio
+# MyPortfolio
 
 ### by Halina Zmachynskaya
 -------------------------------------------------------------------------------------------------------
-The web site consists of three pages and presents a portfolio. The contact.html page contains a basic form. The portfolio.html page uses boottstrap cards. All three pages utilize the bootstrap grid system and its responsive design capabilities. 
+The web site consists of two pages and presents a portfolio. The portfolio.html page uses boottstrap cards. All pages utilize the bootstrap grid system and its responsive design capabilities. 
 -------------------------------------------------------------------------------------------------------
 
 Techologies used:
