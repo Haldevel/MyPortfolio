@@ -1,0 +1,84 @@
+.in {   
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 900;  
+   /*  color: #8CDEE5; */
+   color: #17a2b8;
+   /*  color: #; */
+}
+
+.hr-color {
+    border-color:#019393;
+}
+
+#main-nav {
+    font-weight: 300;  
+    font-size: 1.2rem;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#main-nav .nav-link:hover {
+    color: rgb(224, 224, 224);
+}
+
+#main-nav .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer {
+    padding: 10px 0;
+    margin-top: 40px;
+    /* clear: both; */
+    font-size: 12px; 
+    text-align: center;
+    color: white;
+    /* background-color: #388a8e; */
+    background-color: #018187;
+    border-bottom: 2px solid rgb( #8CDEE5);
+    width: 100%;
+    /* margin: 0 auto; */  
+}
+
+#auth-image {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.bg-custom {
+    background-color: #EEE;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.milk-bckgr {
+ /*    background-color: #f1eff0; */
+ background-color: #f3f1f2;
+}
+
+.milk-bckgr-l {
+    background-color: #f1eff0; 
+/*     background-color: #f3f1f2; */
+   }
+
+   label  {
+    font-size: 0.8rem;
+   }
+
+
+
+  
+
