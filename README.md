@@ -7,7 +7,7 @@ The web site consists of two pages - index.html and portfolio.html  and presents
 #### Portfolio Page:
 The portfolio.html page uses bootstrap cards and have links to the deployed projects/apps and the corresponding github repos.
 
-![Portfolio Page](./assets/images/portfolio.png)
+![Portfolio Page](./assets/images/readme_app.png)
 
 __________________________________________________________________
 
