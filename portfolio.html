@@ -12,13 +12,13 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Tangerine" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Main</title>
+    <title>My Portfolio</title>
 </head>
 
 <body>
-    <nav id="main-nav" class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><span class="in">Halina Zmachynskaya </span><i class="fas fa-laptop ml-2"
-                style="color: #17a2b8; font-size: 18px;"></i></a>
+    <nav id="main-nav" class="navbar navbar-expand-lg  navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-laptop ml-2 mr-2"
+                style="color: #01a9b4; font-size: 1.3rem"></i><span class="in">Halina Zmachynskaya </span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,17 +34,22 @@
             </ul>
         </div>
     </nav>
+
+
     <div class="container">
-        <!--  <h4><i class="fas fa-file-alt mr-2 mt-5" style="font-size: 16px; color: #93DFE5"></i></span>My Portfolio</h4> -->
-        <h5><i class="fas fa-file-alt mr-2 mt-5" style="font-size: 16px; color: #01a9b4"></i></span>My Portfolio</h5>
-
-        <hr>
+        <div class="row">
+            <div class="col-12">
+                <!--  <h4><i class="fas fa-file-alt mr-2 mt-5" style="font-size: 16px; color: #93DFE5"></i></span>My Portfolio</h4> -->
+                <h5 style="font-weight: 300;"><i class="fas fa-file-alt mr-2 mt-5" style="font-size: 16px; color: #01a9b4"></i></span>My Portfolio
+                </h5>
+                <hr>
+            </div>
+        </div>
     </div>
-
     <div class="container">
         <!--first row-->
-        <div class="row mb-3">
-            <div class="col-md-4">
+        <div class="row ">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card" style="border: 1px solid a5aebc #a1aab9; border-radius: 6px;">
                     <img class="card-img-top" src="assets/images/furry-friends.png" alt="">
                     <div class="card-body milk-bckgr-l">
@@ -62,26 +67,31 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card" style="border: 1px solid a5aebc #a1aab9; border-radius: 6px;">
                     <img class="card-img-top" src="assets/images/TradingPost.png" alt="">
                     <div class="card-body milk-bckgr-l">
                         <a href="https://degalo93.github.io/tradingpost2/" style="color: #018187;">
                             <h6 class="card-title">Trading Post</h6>
                         </a>
-                        <a href="https://github.com/Haldevel/trading-post-backend" style="color: #018187; font-size: 0.8rem;">Github
+                        <a href="https://github.com/Haldevel/trading-post-backend"
+                            style="color: #018187; font-size: 0.8rem;">Github
                             back-end</a> <span style="color: #018187; font-size: 0.6rem;">&#x2606;</span>
-                        <a href="https://github.com/Haldevel/tradingpost2" style="color: #018187; font-size: 0.8rem">Github
+                        <a href="https://github.com/Haldevel/tradingpost2"
+                            style="color: #018187; font-size: 0.8rem">Github
                             front-end</a> <br>
                         <hr>
-                        <p class="card-text">This is a decoupled MERN web app with MVC architecture pattern, designed by a small team to help people trade items without using money. 
-                            It's a place where you can post and find items for exchange, and contact other users to make a trade with them. The API on the back-end utilizes Node.js, Express, MongoDB/Mongoose, and uses JWT for authentication.
-                            The front-end uses React, Redux, Materialize, HTML and CSS. 
+                        <p class="card-text">This is a decoupled MERN web app with MVC architecture pattern, designed by
+                            a small team to help people trade items without using money.
+                            It's a place where you can post and find items for exchange, and contact other users to make
+                            a trade with them. The API on the back-end utilizes Node.js, Express, MongoDB/Mongoose, and
+                            uses JWT for authentication.
+                            The front-end uses React, Redux, Materialize, HTML and CSS.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card" style="border: 1px solid a5aebc #a5aebc; border-radius: 6px;">
                     <img class="card-img-top" src="assets/images/what2grow_sm.jpg">
                     <div class="card-body milk-bckgr-l">
@@ -102,10 +112,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!--second row-->
-        <div class="row">
-            <div class="col-md-4">
+       <!--  </div>
+        <div class="row"> -->
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card" style="border: 1px solid a5aebc #a1aab9; border-radius: 6px;">
                     <img class="card-img-top" src="assets/images/giftastic_s.png" alt="">
                     <div class="card-body milk-bckgr-l">
@@ -124,7 +133,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card" style="border: 1px solid a5aebc #a1aab9; border-radius: 6px;">
                     <img class="card-img-top" src="assets/images/GoogleBooks.png" alt="">
                     <div class="card-body milk-bckgr-l">
@@ -144,7 +153,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card" style="border: 1px solid a5aebc #a1aab9; border-radius: 6px;">
                     <img class="card-img-top" src="assets/images/CrystalCollector_sm.jpg" height="190px" alt="">
                     <div class="card-body milk-bckgr-l">
@@ -168,7 +177,6 @@
 
     </div>
 
-    </div>
 
     <footer>
         <div class="container">

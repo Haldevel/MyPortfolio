@@ -1,24 +1,22 @@
-.in {   
+.in {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 900;  
-   /*  color: #8CDEE5; */
-   color: #17a2b8;
-   /*  color: #; */
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: #17a2b8;
 }
 
 .hr-color {
-    border-color:#019393;
+    border-color: #019393;
 }
 
 #main-nav {
-    font-weight: 300;  
-    font-size: 1.2rem;
+    font-weight: 300;
+    font-size: 1.1rem;
 }
 
 #mainNavbar {
-    font-size: 1.5rem;
-    font-weight: 100;    
+    font-size: 1.1rem;
+    font-weight: 100;
 }
 
 #mainNavbar .nav-link {
@@ -38,14 +36,13 @@ footer {
     padding: 10px 0;
     margin-top: 40px;
     /* clear: both; */
-    font-size: 12px; 
+    font-size: 12px;
     text-align: center;
     color: white;
-    /* background-color: #388a8e; */
     background-color: #018187;
-    border-bottom: 2px solid rgb( #8CDEE5);
+    border-bottom: 2px solid rgb(#8CDEE5);
     width: 100%;
-    /* margin: 0 auto; */  
+    /* margin: 0 auto; */
 }
 
 #auth-image {
@@ -65,20 +62,19 @@ p {
 }
 
 .milk-bckgr {
- /*    background-color: #f1eff0; */
- background-color: #f3f1f2;
+    background-color: #f3f1f2;
 }
 
 .milk-bckgr-l {
-    background-color: #f1eff0; 
-/*     background-color: #f3f1f2; */
-   }
+    background-color: #f1eff0;
+}
 
-   label  {
+label {
     font-size: 0.8rem;
-   }
+}
 
-
-
-  
-
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1600px; /* or 950px */
+  }
